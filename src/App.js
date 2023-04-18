@@ -50,7 +50,7 @@ const App = () => {
         <div className='pb-4 pt-16 bg-[#171614] flex flex-col items-center'>
           <button onClick={handleClick} className='bg-gradient-to-r from-orange-600 to-yellow-500 text-white text-xl px-8 rounded-md py-2 mt-8 scale-1 hover:scale-125 hover:translate hover:delay-100 hover:transition-all transition-all delay-100 animate-bounce hover:animate-none'>Train Now</button>
 
-          <p className='text-white mt-32'>Made with ❤️ by <span className='text-orange-600'>FitBloom Team</span></p>
+          <p className='text-white mt-32'>Made with ❤️ by <span className='text-orange-600'>TrainAi Team</span></p>
         </div>
       </div> : <List />
   )
